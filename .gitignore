@@ -1,0 +1,27 @@
+# Private credentials
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Private task inputs and generated evidence
+data/*
+!data/README.md
+results/*
+!results/README.md
+*.csv
+*.jsonl
+*.log
+split_ids.csv
+
+# Python and notebook runtime files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+Thumbs.db
