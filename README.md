@@ -6,7 +6,6 @@ An email-classification project that tests whether prompt changes help an LLM di
 
 I evaluated nine prompt configurations on the same 100 validation emails. The strongest configuration achieved **90% validation accuracy** and **0.89964 macro F1**. The submitted pipeline received **0.79166 public macro F1** on 50 hidden-label test emails. The difference matters: performance on a repeatedly inspected validation set did not transfer directly to the public evaluation.
 
-> **Coursework sharing:** Keep this repository private unless course staff permits release. The assignment restricts sharing its code, prompts, analyses, and predictions. Competition data and notebook outputs are excluded from this package.
 
 ## What the project demonstrates
 
